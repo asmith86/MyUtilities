@@ -26,9 +26,9 @@ public class TestRun {
         LocalDateTime dt1 = LocalDateTime.now();
         LocalDateTime dt2 = LocalDateTime.of(2017, Month.APRIL, 11, 2, 40);
        
-        long diff = dUtils.returnUnitBetweenTimesOrDates(dt2, dt1, timeString);
         
-        System.out.println(diff + " seconds.");
+        
+      
         System.out.println(dUtils.returnFormattedDateString(dt2, 
                 DateUtilities.MONTH_FIRST_AM_PM));
 
